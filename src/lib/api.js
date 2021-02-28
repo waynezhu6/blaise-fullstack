@@ -1,5 +1,5 @@
 // use OSRM's demo server
-const API_ADDRESS = "http://router.project-osrm.org/route/v1/driving/";
+const API_ADDRESS = "https://router.project-osrm.org/route/v1/driving/";
 
 const getOSRMRoute = async(from, to) => {
   // fetches route from osrm api's route service
